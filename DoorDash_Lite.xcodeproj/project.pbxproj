@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6040F1921FC19F620B335F60 /* Pods_DoorDash_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A9F5EF8B91E6727DA39B63 /* Pods_DoorDash_Lite.framework */; };
+		F6687ED9209665C5003414EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687ED8209665C5003414EF /* AppDelegate.swift */; };
+		F6687EDB209665C5003414EF /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687EDA209665C5003414EF /* ExploreViewController.swift */; };
+		F6687EDD209665C5003414EF /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687EDC209665C5003414EF /* FavoritesViewController.swift */; };
+		F6687EE0209665C5003414EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6687EDE209665C5003414EF /* Main.storyboard */; };
+		F6687EE2209665C9003414EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6687EE1209665C9003414EF /* Assets.xcassets */; };
+		F6687EE5209665C9003414EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6687EE3209665C9003414EF /* LaunchScreen.storyboard */; };
+		F6687EF0209665CA003414EF /* DoorDash_LiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687EEF209665CA003414EF /* DoorDash_LiteTests.swift */; };
+		F6687EFB20966CD6003414EF /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687EFA20966CD6003414EF /* AddressViewController.swift */; };
+		F6687EFF2097B5A7003414EF /* APIClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6687EFE2097B5A7003414EF /* APIClientManager.swift */; };
+		F69E69D520C59A4F008B7A09 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E69D420C59A4F008B7A09 /* FavoritesViewModel.swift */; };
+		F69E69D820C5A178008B7A09 /* heart-outline-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F69E69D620C5A177008B7A09 /* heart-outline-25.png */; };
+		F69E69D920C5A178008B7A09 /* heart-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F69E69D720C5A177008B7A09 /* heart-filled-25.png */; };
+		F6A8FC6C2097CCF0000BA0C3 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8FC6B2097CCF0000BA0C3 /* RestaurantTableViewCell.swift */; };
+		F6A8FC6E2097EE69000BA0C3 /* restaurant-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A8FC6D2097EE68000BA0C3 /* restaurant-placeholder.png */; };
+		F6A8FC702097F2A1000BA0C3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8FC6F2097F2A1000BA0C3 /* Restaurant.swift */; };
+		F6A8FC74209801D0000BA0C3 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8FC73209801D0000BA0C3 /* RestaurantViewModel.swift */; };
+		F6A8FC7920988B20000BA0C3 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8FC7820988B20000BA0C3 /* APIClientTests.swift */; };
+		F6A8FC7B209890E6000BA0C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8FC7A209890E6000BA0C3 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6687EEC209665CA003414EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6687ECD209665C5003414EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6687ED4209665C5003414EF;
+			remoteInfo = DoorDash_Lite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE1578278E628193CDAA008 /* Pods-DoorDash_Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDash_Lite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDash_Lite/Pods-DoorDash_Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		90A9F5EF8B91E6727DA39B63 /* Pods_DoorDash_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorDash_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6687ED5209665C5003414EF /* DoorDash_Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDash_Lite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6687ED8209665C5003414EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6687EDA209665C5003414EF /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		F6687EDC209665C5003414EF /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F6687EDF209665C5003414EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6687EE1209665C9003414EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6687EE4209665C9003414EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6687EE6209665C9003414EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6687EEB209665CA003414EF /* DoorDash_LiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDash_LiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6687EEF209665CA003414EF /* DoorDash_LiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDash_LiteTests.swift; sourceTree = "<group>"; };
+		F6687EF1209665CA003414EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6687EFA20966CD6003414EF /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		F6687EFE2097B5A7003414EF /* APIClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientManager.swift; sourceTree = "<group>"; };
+		F69E69D420C59A4F008B7A09 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		F69E69D620C5A177008B7A09 /* heart-outline-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-outline-25.png"; sourceTree = "<group>"; };
+		F69E69D720C5A177008B7A09 /* heart-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-filled-25.png"; sourceTree = "<group>"; };
+		F6A8FC6B2097CCF0000BA0C3 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		F6A8FC6D2097EE68000BA0C3 /* restaurant-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant-placeholder.png"; sourceTree = "<group>"; };
+		F6A8FC6F2097F2A1000BA0C3 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F6A8FC73209801D0000BA0C3 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		F6A8FC7820988B20000BA0C3 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		F6A8FC7A209890E6000BA0C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFA0C9F2207A9CD7AF4F3FD2 /* Pods-DoorDash_Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDash_Lite.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDash_Lite/Pods-DoorDash_Lite.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6687ED2209665C5003414EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6040F1921FC19F620B335F60 /* Pods_DoorDash_Lite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6687EE8209665CA003414EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE2A4B3D50363446B5BEF5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE1578278E628193CDAA008 /* Pods-DoorDash_Lite.debug.xcconfig */,
+				FFA0C9F2207A9CD7AF4F3FD2 /* Pods-DoorDash_Lite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D05FAB7667DFDF636133F66F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A9F5EF8B91E6727DA39B63 /* Pods_DoorDash_Lite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6687ECC209665C5003414EF = {
+			isa = PBXGroup;
+			children = (
+				F6687ED7209665C5003414EF /* DoorDash_Lite */,
+				F6687EEE209665CA003414EF /* DoorDash_LiteTests */,
+				F6687ED6209665C5003414EF /* Products */,
+				CDE2A4B3D50363446B5BEF5A /* Pods */,
+				D05FAB7667DFDF636133F66F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6687ED6209665C5003414EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6687ED5209665C5003414EF /* DoorDash_Lite.app */,
+				F6687EEB209665CA003414EF /* DoorDash_LiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6687ED7209665C5003414EF /* DoorDash_Lite */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8FC7720982296000BA0C3 /* Web Services */,
+				F6A8FC762098225D000BA0C3 /* Models */,
+				F6A8FC7520982225000BA0C3 /* View Models */,
+				F6A8FC722097F3A1000BA0C3 /* Controllers */,
+				F6A8FC712097F390000BA0C3 /* Resources */,
+				F6687ED8209665C5003414EF /* AppDelegate.swift */,
+				F6687EE6209665C9003414EF /* Info.plist */,
+				F6A8FC7A209890E6000BA0C3 /* Constants.swift */,
+			);
+			path = DoorDash_Lite;
+			sourceTree = "<group>";
+		};
+		F6687EEE209665CA003414EF /* DoorDash_LiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6687EEF209665CA003414EF /* DoorDash_LiteTests.swift */,
+				F6A8FC7820988B20000BA0C3 /* APIClientTests.swift */,
+				F6687EF1209665CA003414EF /* Info.plist */,
+			);
+			path = DoorDash_LiteTests;
+			sourceTree = "<group>";
+		};
+		F6A8FC712097F390000BA0C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F69E69D720C5A177008B7A09 /* heart-filled-25.png */,
+				F69E69D620C5A177008B7A09 /* heart-outline-25.png */,
+				F6A8FC6D2097EE68000BA0C3 /* restaurant-placeholder.png */,
+				F6687EDE209665C5003414EF /* Main.storyboard */,
+				F6687EE1209665C9003414EF /* Assets.xcassets */,
+				F6687EE3209665C9003414EF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6A8FC722097F3A1000BA0C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8FC6B2097CCF0000BA0C3 /* RestaurantTableViewCell.swift */,
+				F6687EDA209665C5003414EF /* ExploreViewController.swift */,
+				F6687EDC209665C5003414EF /* FavoritesViewController.swift */,
+				F6687EFA20966CD6003414EF /* AddressViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6A8FC7520982225000BA0C3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8FC73209801D0000BA0C3 /* RestaurantViewModel.swift */,
+				F69E69D420C59A4F008B7A09 /* FavoritesViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F6A8FC762098225D000BA0C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8FC6F2097F2A1000BA0C3 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6A8FC7720982296000BA0C3 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6687EFE2097B5A7003414EF /* APIClientManager.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6687ED4209665C5003414EF /* DoorDash_Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6687EF4209665CA003414EF /* Build configuration list for PBXNativeTarget "DoorDash_Lite" */;
+			buildPhases = (
+				7775296039B6ADF264D4B5AD /* [CP] Check Pods Manifest.lock */,
+				F6687ED1209665C5003414EF /* Sources */,
+				F6687ED2209665C5003414EF /* Frameworks */,
+				F6687ED3209665C5003414EF /* Resources */,
+				BDB356B02D48971CFCE2BF7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorDash_Lite;
+			productName = DoorDash_Lite;
+			productReference = F6687ED5209665C5003414EF /* DoorDash_Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6687EEA209665CA003414EF /* DoorDash_LiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6687EF7209665CA003414EF /* Build configuration list for PBXNativeTarget "DoorDash_LiteTests" */;
+			buildPhases = (
+				F6687EE7209665CA003414EF /* Sources */,
+				F6687EE8209665CA003414EF /* Frameworks */,
+				F6687EE9209665CA003414EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6687EED209665CA003414EF /* PBXTargetDependency */,
+			);
+			name = DoorDash_LiteTests;
+			productName = DoorDash_LiteTests;
+			productReference = F6687EEB209665CA003414EF /* DoorDash_LiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6687ECD209665C5003414EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jyothi;
+				TargetAttributes = {
+					F6687ED4209665C5003414EF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F6687EEA209665CA003414EF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F6687ED4209665C5003414EF;
+					};
+				};
+			};
+			buildConfigurationList = F6687ED0209665C5003414EF /* Build configuration list for PBXProject "DoorDash_Lite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6687ECC209665C5003414EF;
+			productRefGroup = F6687ED6209665C5003414EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6687ED4209665C5003414EF /* DoorDash_Lite */,
+				F6687EEA209665CA003414EF /* DoorDash_LiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6687ED3209665C5003414EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6687EE5209665C9003414EF /* LaunchScreen.storyboard in Resources */,
+				F6687EE2209665C9003414EF /* Assets.xcassets in Resources */,
+				F6A8FC6E2097EE69000BA0C3 /* restaurant-placeholder.png in Resources */,
+				F69E69D820C5A178008B7A09 /* heart-outline-25.png in Resources */,
+				F6687EE0209665C5003414EF /* Main.storyboard in Resources */,
+				F69E69D920C5A178008B7A09 /* heart-filled-25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6687EE9209665CA003414EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7775296039B6ADF264D4B5AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorDash_Lite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB356B02D48971CFCE2BF7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoorDash_Lite/Pods-DoorDash_Lite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoorDash_Lite/Pods-DoorDash_Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6687ED1209665C5003414EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6687EDD209665C5003414EF /* FavoritesViewController.swift in Sources */,
+				F6687ED9209665C5003414EF /* AppDelegate.swift in Sources */,
+				F6687EDB209665C5003414EF /* ExploreViewController.swift in Sources */,
+				F6687EFB20966CD6003414EF /* AddressViewController.swift in Sources */,
+				F6A8FC74209801D0000BA0C3 /* RestaurantViewModel.swift in Sources */,
+				F6A8FC7B209890E6000BA0C3 /* Constants.swift in Sources */,
+				F6A8FC702097F2A1000BA0C3 /* Restaurant.swift in Sources */,
+				F6A8FC6C2097CCF0000BA0C3 /* RestaurantTableViewCell.swift in Sources */,
+				F69E69D520C59A4F008B7A09 /* FavoritesViewModel.swift in Sources */,
+				F6687EFF2097B5A7003414EF /* APIClientManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6687EE7209665CA003414EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6687EF0209665CA003414EF /* DoorDash_LiteTests.swift in Sources */,
+				F6A8FC7920988B20000BA0C3 /* APIClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6687EED209665CA003414EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6687ED4209665C5003414EF /* DoorDash_Lite */;
+			targetProxy = F6687EEC209665CA003414EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6687EDE209665C5003414EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6687EDF209665C5003414EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6687EE3209665C9003414EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6687EE4209665C9003414EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6687EF2209665CA003414EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6687EF3209665CA003414EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6687EF5209665CA003414EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE1578278E628193CDAA008 /* Pods-DoorDash_Lite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorDash_Lite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.DoorDash-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6687EF6209665CA003414EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA0C9F2207A9CD7AF4F3FD2 /* Pods-DoorDash_Lite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorDash_Lite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.DoorDash-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6687EF8209665CA003414EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorDash_LiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.DoorDash-LiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorDash_Lite.app/DoorDash_Lite";
+			};
+			name = Debug;
+		};
+		F6687EF9209665CA003414EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorDash_LiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.DoorDash-LiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorDash_Lite.app/DoorDash_Lite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6687ED0209665C5003414EF /* Build configuration list for PBXProject "DoorDash_Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6687EF2209665CA003414EF /* Debug */,
+				F6687EF3209665CA003414EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6687EF4209665CA003414EF /* Build configuration list for PBXNativeTarget "DoorDash_Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6687EF5209665CA003414EF /* Debug */,
+				F6687EF6209665CA003414EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6687EF7209665CA003414EF /* Build configuration list for PBXNativeTarget "DoorDash_LiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6687EF8209665CA003414EF /* Debug */,
+				F6687EF9209665CA003414EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6687ECD209665C5003414EF /* Project object */;
+}
